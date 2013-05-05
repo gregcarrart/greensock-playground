@@ -1,0 +1,77 @@
+#container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#navigation-container {
+	width: 100%;
+	background-color: red;
+}
+
+.clipBox {
+	position:absolute;
+	width:100px;
+	height:100px;   
+	background:url(http://www.greensock.com/_img/cssplugin_css3/love_100x100.jpg);  
+	clip:rect(0px 100px 100px 0px);
+}
+
+.clipbg {
+	position:relative;
+	margin-right:10px;
+	width:100px;
+	height:100px;
+	display:inline-block;
+	background-color:#333;
+	cursor:pointer;    
+}
+
+.clip2{
+	background:url(http://www.greensock.com/_img/cssplugin_css3/clip_bottomCorner.gif);  
+}
+
+.reveal {
+	width: 0;
+	overflow: hidden;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.animated-text-container {
+	width: 300px;
+	float: left;
+}
+
+#accordion {
+	width: 400px;
+	float: left;
+}
+
+.header {
+	background-color: blue;
+	cursor: pointer;
+}
+
+.content {
+	height: auto;
+	background-color: yellow;
+	padding: 15px;
+}
+
+.box-hit {
+	width: 200px;
+	height: 200px;
+	clear: both;
+}
+
+#box {
+	width: 200px;
+	height: 200px;
+	background-color: red;	
+}
+
+.text-effect {
+	width: 200px;
+	font-family: 'Helvetica';
+	font-size: 20px;
+}
